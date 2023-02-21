@@ -39,7 +39,7 @@ public class MyApplication extends Application {
 
             CharSequence name2 = getString(R.string.channel_name_2);
             String description2 = getString(R.string.channel_description_2);
-            NotificationChannel channel2 = new NotificationChannel(CHANNEL_ID_2, name2, NotificationManager.IMPORTANCE_DEFAULT);
+            NotificationChannel channel2 = new NotificationChannel(CHANNEL_ID_2, name2, NotificationManager.IMPORTANCE_HIGH);
             channel2.setDescription(description2);
             channel.setSound(soundCustom, audioAttributes);
 
